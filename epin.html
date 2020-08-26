@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles22.css">
+    <script src="main32.js"></script>
+</head>
+<body>
+    <div class="navi">
+        <ul id="lista">
+            <li>
+                <a href="index.html">
+                    etusivu
+                </a>
+            </li>
+            <li>
+                <a href="sivu2.html">
+                    tokasivu
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="pohja">
+        <div class="t1">
+            <h1 id="t1t">Tehtävä 1</h1>
+            <p id="p1t">
+                Tee ohjelma, joka pyytää käyttäjältä parillista lukua ja tulostaa tämän jälkeen kaikki parilliset luvut siihen asti poislukien 0:n
+            </p>
+                <form class="" action="index.html" method="post" id ="from31">
+                    <p>Anna parillinen luku: <input type="text" id="inputti" value=""></p>
+                    <button type="button" name="button" onclick="ebin()">Tulosta parilliset</button>
+                    <p id="parilliset"></p>
+                </form>
+        </div>
+        <div class="t2">
+            <h1 id="t2t">Tehtävä 2</h1>
+            <p id="p2t">
+                Kirjoita ohjelma, joka muuntaa käyttäjän antaman sanan salasanaksi
+                siten, että laittaa joka toiseksi kirjaimeksi ison Ö-kirjaimen, eli
+                jos sana on Kaappi --> KÖaÖaÖpÖpÖiÖ
+            </p>
+            <form class="" action="index.html" method="post">
+                <p>Anna sana: <input type="text" id="inp2" value=""></p>
+                <button type="button" name="button" onclick="sal()">Muuta salasanaksi</button>
+                <div id="ok">
+                </div>
+            </form>
+        </div>
+        <div class="t3">
+            <h1 id="t3t">Tehtävä 3</h1>
+            <p id="p3t">
+                Kirjoita ohjelma, joka tarkastaa, onko antamassasi sanassa ö-kirjainta ja kirjoittaa vastaukseksi joko: on tai ei ole
+            </p>
+            <form class="" action="kakkonen.html" method="post" id="2">
+                <p>Anna sana: <input type="text" id="kissa" value=""></p>
+                <button type="button" name="button" onclick="Oooo()">Onko ö-kirjainta</button>
+                <div id="vastaus"></div>
+            </form>
+        </div>
+        <div class="t4">
+            <h1 id="t4t">Tehtävä 4</h1>
+            <p id="p4t">
+                Kirjoita ohjelma, joka laskee annetun luvun kertoman (esim: 4 -> 4*3*2*1 = 24)
+            </p>
+            <form class="" action="index.html" method="post">
+                <p>Anna luku, josta lasketaan kertoma: <input type="text" id="luku1" value=""></p>
+                <button type="button" name="button" onclick="lask()">Laske kertoma</button>
+                    <p id="kertomaVastaus"></p>
+              </form>
+        </div>
+        <div class="t5">
+            <h1 id="t5t">Tehtävä 5</h1>
+            <p id="p5t">
+                Kirjoita ohjelma, joka tulostaa näytölle luvut 1-100, kuitenkin siten, että jos luku on 3:lla jaollinen, tulostetaan hip ja viidellä jaollinen tulostetaan heijaa ja jos sekä viidellä että kolmella jaollinen, tulostetaan hipheijaa
+            </p>
+            <button type="button" id="button" onclick="tul()">hip</button>
+            <p id="luk"></p>
+        </div>
+    </div>
+</body>
+
+</html>
